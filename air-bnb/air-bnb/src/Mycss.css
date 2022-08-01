@@ -1,0 +1,87 @@
+nav {
+    height: 70px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    background-color: #EFD345;
+}
+
+body {
+    background: linear-gradient(to right bottom, #FFEF82, #F1EEE9);
+}
+
+.Logo {
+    max-width: 100px;
+}
+
+.Hero {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Card {
+    margin-left: 37px;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+}
+
+.Card1 {
+    height: 235px;
+    width: 176px;
+    /* margin-left: 37px; */
+    margin-top: 49px;
+    border-radius: 9px;
+
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.card--star {
+    height: 14px;
+}
+
+.Title {
+    padding: 0 0px;
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.card--price {
+    margin-top: auto;
+}
+
+.badge {
+    position: absolute;
+    top: 53px;
+    left: 5px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}

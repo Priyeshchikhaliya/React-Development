@@ -1,0 +1,38 @@
+{/* Form */}
+      <form className="form" >
+        <label> ID: </label>
+        <input
+          type="number"
+          name="id"
+          className="id-input"
+          placeholder="ID"
+          required
+        ></input>
+        <label> Title: </label>
+        <input
+          name="title"
+          type="text"
+          className="title-input"
+          placeholder="Title"
+          required
+        ></input>
+        <label> Description: </label>
+        <textarea
+          name="description"
+          type="text"
+          className="des-input"
+          placeholder="Description"
+        ></textarea>
+      </form>
+
+      {
+        /* <div>
+                <button type="submit" className="btn-create">
+                  Create
+                </button>
+                <button type="submit" className="btn-save">
+                  Save
+                </button>
+              </div> */
+      }
+      

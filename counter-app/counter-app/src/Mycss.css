@@ -1,0 +1,101 @@
+nav {
+    width: auto;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    background: linear-gradient(90deg, #c39e18 1.18%, #9d760a 49.64%, #28aa14 100%);
+    font-family: "Karla", sans-serif;
+
+}
+
+main {
+    padding: 36px;
+}
+
+.navbar-title {
+    width: 140.79px;
+    height: 24px;
+    margin-left: 58px;
+    margin-top: 21px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.Title {
+    text-align: center;
+    font-family: "Karla", sans-serif;
+
+
+}
+
+.Num {
+    text-align: center;
+    font-family: "Karla", sans-serif;
+
+}
+
+.Add {
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    width: 200px;
+    height: 50px;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #c39e18 1.18%, #9d760a 49.64%, #28aa14 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.Sub {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #c39e18 1.18%, #9d760a 49.64%, #28aa14 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Reset {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #c39e18 1.18%, #9d760a 49.64%, #28aa14 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Buttons {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#Alert {
+    color: red;
+    text-align: center;
+    font-family: "Karla", sans-serif;
+
+
+}
+

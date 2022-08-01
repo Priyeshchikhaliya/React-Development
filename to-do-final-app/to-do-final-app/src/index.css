@@ -1,0 +1,132 @@
+body {
+  background-color: #6d8b74;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+
+.form-container {
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: #cadfcf;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+input {
+  padding: 10px 30px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #efead8;
+  font-family: "Karla", sans-serif;
+}
+
+textarea {
+  padding: 10px 30px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #efead8;
+  font-family: "Karla", sans-serif;
+}
+
+label {
+  margin: auto;
+}
+
+.btn-create {
+  height: 40px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+  background-color: #efead8;
+  border-radius: 20px;
+}
+
+.btn-create:hover {
+  background-color: #d0c9c0;
+  transition: all 0.3s ease;
+  transform: scale(1.2);
+}
+
+.btn-save {
+  height: 40px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+  background-color: #efead8;
+  border-radius: 20px;
+}
+
+.btn-save:hover {
+  background-color: #d0c9c0;
+  transition: all 0.3s ease;
+  transform: scale(1.2);
+}
+
+table {
+  border: 1px solid;
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #efead8;
+}
+
+tr {
+  padding-bottom: 10px;
+  border: 1.5px solid;
+  border-radius: 10px;
+}
+
+th {
+  padding-bottom: 10px;
+  border: 1.5px solid;
+  background-color: #5f7161;
+  border-radius: 5px;
+}
+
+td {
+  border: 1.5px solid;
+  border-radius: 5px;
+}
+
+.btn-update {
+  background-color: #ccd76b;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.btn-update:hover {
+  background-color: yellow;
+}
+
+.btn-delete {
+  height: 40px;
+  width: 100px;
+  background-color: #d77d6b;
+  border-radius: 20px;
+}
+
+.btn-delete:hover {
+  background-color: red;
+}
+
+.Table-button {
+  text-align: center;
+}
